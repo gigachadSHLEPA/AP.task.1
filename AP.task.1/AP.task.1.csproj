@@ -22,5 +22,19 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
+	<ItemGroup>
+		<None Remove="images\2.jpg.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MaterialDesignColors" Version="2.1.1" />
+		<PackageReference Include="MaterialDesignThemes" Version="4.7.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="images\2.jpg.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+	</ItemGroup>
 
 </Project>

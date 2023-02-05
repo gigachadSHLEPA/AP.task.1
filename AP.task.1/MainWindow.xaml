@@ -37,9 +37,7 @@
                             CornerRadius="15"
                             Width="200"
                             BorderThickness="1">
-                        <Image 
-                                Source="images/2.jpg.png"
-                                Grid.Row="1"/>
+                        <Image Source="images/2.jpg.png" Margin="-1,0,1,0"/>
                     </Border>
 
                     <StackPanel Grid.Row="1"
