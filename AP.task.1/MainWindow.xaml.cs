@@ -23,6 +23,16 @@ namespace AP.task._1
         public MainWindow()
         {
             InitializeComponent();
+            
+        }
+
+        private void BtnAnswer_Click(object sender, RoutedEventArgs e)
+        {
+            double f = Convert.ToDouble(TbF.Text);
+            double y = Convert.ToDouble(TbY.Text);
+            
+            MessageBox.Show($"G={(Math.Exp(2*y) + Math.Sin(f)) / Math.Log10(3.8*y + f)}");
+           
         }
     }
 }

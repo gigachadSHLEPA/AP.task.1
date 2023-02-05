@@ -15,7 +15,8 @@
         FontFamily="Consolas">
     <Border>
         <Grid>
-            <Image Source="images/1.jpg"/>
+            <Image Source="images/1.jpg"
+                   />
             <Border Width=" 500"
                     Height="500"
                     HorizontalAlignment="Center"
@@ -23,7 +24,7 @@
                     VerticalAlignment="Bottom"
                     Margin="0 0 0 -166"
                     CornerRadius="500"
-                    Background="Gray"
+                    Background="White"
                     Effect="{StaticResource MaterialDesignElevationShadow1}">
                 <Grid>
                     <Grid.RowDefinitions>
@@ -34,21 +35,22 @@
                             Margin="0 5 0 0"
                             Padding="10"
                             CornerRadius="15"
-                            Width="425"
+                            Width="200"
                             BorderThickness="1">
-                    <Image 
-                                Source="images/2.jpg.png"/>
+                        <Image 
+                                Source="images/2.jpg.png"
+                                Grid.Row="1"/>
                     </Border>
 
                     <StackPanel Grid.Row="1"
                                 HorizontalAlignment="Center"
                                 VerticalAlignment="Top"
-                                Margin="0 0 200 0"
+                                Margin="0 0 178 0"
                                 >
                         <TextBlock Text="Решение: "
-                                   FontSize="35"
+                                   FontSize="27"
                                    FontWeight="SemiBold"
-                                   Foreground="MidnightBlue">
+                                   Foreground="Black">
                             <TextBlock.Style>
                                 <Style TargetType="TextBlock">
                                     <Style.Triggers>
@@ -63,20 +65,54 @@
                     </StackPanel>
 
                     <StackPanel HorizontalAlignment="Center"
-                                VerticalAlignment="Center"
-                                Grid.Row="1">
-                        <StackPanel>
-                            <TextBlock Text="Введите F :"
-                                       FontSize="15"/>
+                                VerticalAlignment="Top"
+                                Grid.Row="1"
+                                Margin="0 60 190 0">
+                        <StackPanel VerticalAlignment="Center"
+                                    >
+
+                            <TextBlock Text="Введите F:"
+                                       FontSize="20"
+                                       Foreground="Black"
+                                       FontWeight="ExtraBlack"
+                                       Margin="0 0 0 0"/>
+                            <TextBox x:Name="TbF" Width="120" Height="29" Margin="0 0 0 0"/>
                         </StackPanel>
-                        
-                                   
+
 
                     </StackPanel>
-                </Grid>    
+                    <StackPanel HorizontalAlignment="Center"
+                                VerticalAlignment="Top"
+                                Grid.Row="1"
+                                Margin="250 60 0 0">
+                        <StackPanel Margin="0 0 0 0">
+                            <TextBlock Text="Введите Y:"
+                                       FontSize="20"
+                                       Foreground="Black"
+                                       FontWeight="ExtraBlack"/>
+                            <TextBox x:Name="TbY" Width="120" Height="29" Margin="0 0 0 30"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <Button Margin="94,146,190,179"
+                            x:Name="Button"
+                                Foreground="#FFFFFF"
+                                Background="Black"
+                                BorderThickness="0"
+                                Grid.Row="1"
+                                Click="BtnAnswer_Click">
+
+                        <StackPanel Orientation="Horizontal"
+                                    >
+                            <TextBlock Text="✓ ОТВЕТ"
+                                           FontSize="23"
+                                           Margin="0 0 0 0"/>
+                        </StackPanel>
+                    </Button>
+
+                </Grid>
             </Border>
         </Grid>
-        
+
     </Border>
 
 </Window>
