@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>AP.task2._1</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="imagess\11.jpg" />
+    <None Remove="imagess\22.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="2.1.1" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="imagess\11.jpg" />
+    <Resource Include="imagess\22.jpg" />
+  </ItemGroup>
+
+</Project>
