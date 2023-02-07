@@ -35,15 +35,15 @@ namespace AP.task._1.view.pages
         }
         private void MNBTN3_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP2());
         }
         private void MNBTN4_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP3());
         }
         private void MNBTN5_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP4());
         }
         private void MNBTN6_Click(object sender, RoutedEventArgs e)
         {

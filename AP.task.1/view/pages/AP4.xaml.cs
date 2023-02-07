@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace AP.task._1.view.pages
 {
     /// <summary>
-    /// Логика взаимодействия для AP2.xaml
+    /// Логика взаимодействия для AP4.xaml
     /// </summary>
-    public partial class AP2 : Page
+    public partial class AP4 : Page
     {
-        public AP2()
+        public AP4()
         {
             InitializeComponent();
         }
@@ -29,9 +29,10 @@ namespace AP.task._1.view.pages
 
             try
             {
-                double k = Convert.ToDouble(TbF2.Text);
+                double a = Convert.ToDouble(TbF2.Text);
                 double y = Convert.ToDouble(TbY2.Text);
-                MessageBox.Show($"U={(Math.Log10(k - y) + Math.Pow(y, 4)) / (Math.Exp(y) + 2.355 * Math.Pow(k, 2))}");
+                double t = Convert.ToDouble(TbT2.Text);
+                MessageBox.Show($"G={(7.8 * Math.Pow(a, 2) + 3.52*t)/(Math.Log10(a + 2*y) + Math.Exp(y))}");
             }
             catch (Exception)
             {
@@ -45,5 +46,4 @@ namespace AP.task._1.view.pages
             Coreee.MyCore?.Navigate(new MainPage());
         }
     }
-    
 }
