@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AP.task._1.view.pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,19 +21,20 @@ namespace AP.task._1
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-            
-        }
+   
 
-        private void BtnAnswer_Click(object sender, RoutedEventArgs e)
-        {
-            double f = Convert.ToDouble(TbF.Text);
-            double y = Convert.ToDouble(TbY.Text);
+            public MainWindow()
+            {
+                InitializeComponent();
+                Coreee.MyCore = MainFrame;
+                MainFrame.Navigate(new MainPage());
+            }
+
+
+     
             
-            MessageBox.Show($"G={(Math.Exp(2*y) + Math.Sin(f)) / Math.Log10(3.8*y + f)}");
+            
            
-        }
+        
     }
 }

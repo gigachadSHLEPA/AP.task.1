@@ -10,6 +10,30 @@
 
   <ItemGroup>
     <None Remove="images\1.jpg" />
+    <None Remove="images\2.jpg.jpg" />
+    <None Remove="images\22.jpg" />
+    <None Remove="images\gigachad.jpg" />
+    <None Remove="images\Task1_10.jpg" />
+    <None Remove="images\Task1_11.jpg" />
+    <None Remove="images\Task1_12.jpg" />
+    <None Remove="images\Task1_13.jpg" />
+    <None Remove="images\Task1_14.jpg" />
+    <None Remove="images\Task1_15.jpg" />
+    <None Remove="images\Task1_16.jpg" />
+    <None Remove="images\Task1_17.jpg" />
+    <None Remove="images\Task1_18.jpg" />
+    <None Remove="images\Task1_19.jpg" />
+    <None Remove="images\Task1_20.jpg" />
+    <None Remove="images\Task1_21.jpg" />
+    <None Remove="images\Task1_22.jpg" />
+    <None Remove="images\Task1_23.jpg" />
+    <None Remove="images\Task1_24.jpg" />
+    <None Remove="images\Task1_25.jpg" />
+    <None Remove="images\Task1_26.jpg" />
+    <None Remove="images\Task1_27.jpg" />
+    <None Remove="images\Task1_28.jpg" />
+    <None Remove="images\Task1_29.jpg" />
+    <None Remove="images\Task1_30.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,20 +45,28 @@
     <Resource Include="images\1.jpg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="images\2.jpg.jpg" />
+    <Resource Include="images\22.jpg" />
+    <Resource Include="images\gigachad.jpg" />
+    <Resource Include="images\Task1_10.jpg" />
+    <Resource Include="images\Task1_11.jpg" />
+    <Resource Include="images\Task1_12.jpg" />
+    <Resource Include="images\Task1_13.jpg" />
+    <Resource Include="images\Task1_14.jpg" />
+    <Resource Include="images\Task1_15.jpg" />
+    <Resource Include="images\Task1_16.jpg" />
+    <Resource Include="images\Task1_17.jpg" />
+    <Resource Include="images\Task1_19.jpg" />
+    <Resource Include="images\Task1_20.jpg" />
+    <Resource Include="images\Task1_21.jpg" />
+    <Resource Include="images\Task1_22.jpg" />
+    <Resource Include="images\Task1_23.jpg" />
+    <Resource Include="images\Task1_24.jpg" />
+    <Resource Include="images\Task1_25.jpg" />
+    <Resource Include="images\Task1_26.jpg" />
+    <Resource Include="images\Task1_27.jpg" />
+    <Resource Include="images\Task1_28.jpg" />
+    <Resource Include="images\Task1_29.jpg" />
+    <Resource Include="images\Task1_30.jpg" />
   </ItemGroup>
-	<ItemGroup>
-		<None Remove="images\2.jpg.png" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<PackageReference Include="MaterialDesignColors" Version="2.1.1" />
-		<PackageReference Include="MaterialDesignThemes" Version="4.7.1" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Resource Include="images\2.jpg.png">
-			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
-		</Resource>
-	</ItemGroup>
-
-</Project>
+	</Project>
