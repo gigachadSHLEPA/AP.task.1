@@ -59,7 +59,7 @@ namespace AP.task._1.view.pages
         }
         private void MNBTN9_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP8());
         }
         private void MNBTN10_Click(object sender, RoutedEventArgs e)
         {
