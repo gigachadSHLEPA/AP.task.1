@@ -19,6 +19,7 @@
     <None Remove="images\screen6.png" />
     <None Remove="images\screen7.png" />
     <None Remove="images\screen8.png" />
+    <None Remove="images\screen9.png" />
     <None Remove="images\Task1_10.jpg" />
     <None Remove="images\Task1_11.jpg" />
     <None Remove="images\Task1_12.jpg" />
@@ -60,6 +61,7 @@
     <Resource Include="images\screen6.png" />
     <Resource Include="images\screen7.png" />
     <Resource Include="images\screen8.png" />
+    <Resource Include="images\screen9.png" />
     <Resource Include="images\Task1_10.jpg" />
     <Resource Include="images\Task1_11.jpg" />
     <Resource Include="images\Task1_12.jpg" />
