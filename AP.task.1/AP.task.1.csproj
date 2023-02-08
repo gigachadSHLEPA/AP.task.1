@@ -14,6 +14,8 @@
     <None Remove="images\22.jpg" />
     <None Remove="images\222.jpg" />
     <None Remove="images\gigachad.jpg" />
+    <None Remove="images\screen118.png" />
+    <None Remove="images\screen18.png" />
     <None Remove="images\screen4.jpg" />
     <None Remove="images\screen5.jpg" />
     <None Remove="images\screen6.png" />
@@ -56,12 +58,15 @@
     <Resource Include="images\22.jpg" />
     <Resource Include="images\222.jpg" />
     <Resource Include="images\gigachad.jpg" />
+    <Resource Include="images\screen118.png" />
     <Resource Include="images\screen4.jpg" />
     <Resource Include="images\screen5.jpg" />
     <Resource Include="images\screen6.png" />
     <Resource Include="images\screen7.png" />
     <Resource Include="images\screen8.png" />
-    <Resource Include="images\screen9.png" />
+    <Resource Include="images\screen9.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="images\Task1_10.jpg" />
     <Resource Include="images\Task1_11.jpg" />
     <Resource Include="images\Task1_12.jpg" />

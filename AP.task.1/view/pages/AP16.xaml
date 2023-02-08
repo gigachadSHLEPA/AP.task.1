@@ -1,4 +1,4 @@
-﻿<Page x:Class="AP.task._1.view.pages.AP6"
+﻿<Page x:Class="AP.task._1.view.pages.AP16"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:AP.task._1.view.pages"
       mc:Ignorable="d" 
       d:DesignHeight="900" d:DesignWidth="900"
-      Title="AP6">
+      Title="AP16">
 
     <Border>
         <Grid>
@@ -32,7 +32,7 @@
                             CornerRadius="15"
                             Width="200"
                             BorderThickness="1">
-                        <Image Source="/images/screen7.png" Margin="-60,-23,-63,-57"/>
+                        <Image Source="/images/Task1_17.jpg" Margin="-60,-23,-63,-57"/>
                     </Border>
 
                     <StackPanel Grid.Row="1"
@@ -64,7 +64,7 @@
                         <StackPanel VerticalAlignment="Center"
                                     >
 
-                            <TextBlock Text="Введите M:"
+                            <TextBlock Text="Введите N:"
                                        FontSize="20"
                                        Foreground="Black"
                                        FontWeight="ExtraBlack"
@@ -74,7 +74,7 @@
 
 
                     </StackPanel>
-                    
+
                     <StackPanel HorizontalAlignment="Center"
                                 VerticalAlignment="Top"
                                 Grid.Row="1"

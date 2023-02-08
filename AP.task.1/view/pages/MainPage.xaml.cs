@@ -63,51 +63,51 @@ namespace AP.task._1.view.pages
         }
         private void MNBTN10_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP9());
         }
         private void MNBTN11_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP10());
         }
         private void MNBTN12_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP11());
         }
         private void MNBTN13_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP12());
         }
         private void MNBTN14_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP13());
         }
         private void MNBTN15_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP14());
         }
         private void MNBTN16_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP15());
         }
         private void MNBTN17_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP16());
         }
         private void MNBTN18_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP17());
         }
         private void MNBTN19_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP18());
         }
         private void MNBTN20_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP19());
         }
         private void MNBTN21_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP20());
         }
         private void MNBTN22_Click(object sender, RoutedEventArgs e)
         {
