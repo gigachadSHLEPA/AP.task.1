@@ -1,4 +1,4 @@
-﻿<Page x:Class="AP.task._1.view.pages.AP11"
+﻿<Page x:Class="AP.task._1.view.pages.AP26"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:AP.task._1.view.pages"
       mc:Ignorable="d" 
       d:DesignHeight="900" d:DesignWidth="900"
-      Title="AP11">
+      Title="AP26">
 
     <Border>
         <Grid>
@@ -32,7 +32,7 @@
                             CornerRadius="15"
                             Width="200"
                             BorderThickness="1">
-                        <Image Source="/images/Task1_12.jpg" Margin="-60,-23,-63,-57"/>
+                        <Image Source="/images/Task1_27.jpg" Margin="-60,-23,-63,-57"/>
                     </Border>
 
                     <StackPanel Grid.Row="1"
@@ -64,7 +64,7 @@
                         <StackPanel VerticalAlignment="Center"
                                     >
 
-                            <TextBlock Text="Введите T:"
+                            <TextBlock Text="Введите P:"
                                        FontSize="20"
                                        Foreground="Black"
                                        FontWeight="ExtraBlack"
@@ -74,6 +74,7 @@
 
 
                     </StackPanel>
+
                     <StackPanel HorizontalAlignment="Center"
                                 VerticalAlignment="Top"
                                 Grid.Row="1"
@@ -93,6 +94,7 @@
                                 BorderThickness="0"
                                 Grid.Row="1"
                                 Click="BtnAnswer2_Click">
+
                         <StackPanel Orientation="Horizontal"
                                     >
                             <TextBlock Text="✓ ОТВЕТ"

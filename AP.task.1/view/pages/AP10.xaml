@@ -93,11 +93,10 @@
                                 BorderThickness="0"
                                 Grid.Row="1"
                                 Click="BtnAnswer2_Click">
-
                         <StackPanel Orientation="Horizontal"
                                     >
                             <TextBlock Text="✓ ОТВЕТ"
-                                           FontSize="23"
+                                           FontSize="22"
                                            Margin="0 0 0 0"/>
                         </StackPanel>
                     </Button>

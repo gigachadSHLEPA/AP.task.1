@@ -111,39 +111,39 @@ namespace AP.task._1.view.pages
         }
         private void MNBTN22_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP21());
         }
         private void MNBTN23_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP22());
         }
         private void MNBTN24_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP23());
         }
         private void MNBTN25_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP24());
         }
         private void MNBTN26_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP25());
         }
         private void MNBTN27_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP26());
         }
         private void MNBTN28_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP27());
         }
         private void MNBTN29_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP28());
         }
         private void MNBTN30_Click(object sender, RoutedEventArgs e)
         {
-            Coreee.MyCore?.Navigate(new AP());
+            Coreee.MyCore?.Navigate(new AP29());
         }
 
     }
